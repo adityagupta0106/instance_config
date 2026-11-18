@@ -1,0 +1,173 @@
+{
+  "tenantId": "",
+  "data": {
+    "BASIC": {
+      "PREPROD_URL": "",
+      "PROD_URL": "",
+      "launchManually": [],
+      "wfpdashboard_display": false,
+      "singleSessionAllowed": false,
+      "ipwhitelist_required": false,
+      "ip_list": "",
+      "ip_list_restricted": "",
+      "geo_fencing": false,
+      "geo_country": [],
+      "state_id": "0",
+      "tenantDesc": "",
+      "tenantSPOCName": "",
+      "tenantSPOCDesignation": "",
+      "tenantSPOCEmailId": "",
+      "tenantSPOCContactNo": "",
+      "contentSecurityPolicy": "",
+      "tenantName": "",
+      "tenantConsentType": [],
+      "tenantServiceAuthType": [],
+      "logo": "",
+      "state_name" : "",
+      "forceMultiFactor" : "",
+      "enableMultiFactor" : "",
+      "loginType" : 0
+    },
+    "LOGIN": {
+      "User_login_type": [],
+      "User_login_email_enabled": "true",
+      "User_login_mobile_validation_type": "Password",
+      "User_login_email_validation_type": "Password",  
+	  "SSO" : [],
+      "LoginPreferenceConfiguration": "",
+      "multiFactorLogin": "false",
+      "mfaOtpValidity": [],
+      "kycRequired": "false",
+      "ekycThrough": []
+    },
+    "REGISTRATION": {
+      "Gender_display": "true",
+      "Gender_mandatory": "true",
+      "MaritalStatus_display": "true",
+      "MaritalStatus_mandatory": "true",
+      "Dob_display": "true",
+      "Dob_mandatory": "true",
+      "Address_display": "true",
+      "Address_mandatory": "true",
+      "Country_display": "true",
+      "Country_mandatory": "true",
+      "PinCode_display": "true",
+      "PinCode_mandatory": "true",
+      "Landline_display": "true",
+      "Landline_mandatory": "true",
+	  "email_display": "true",
+	  "mobile_display": "true",
+	  "email_mandatory": "true",
+	  "mobile_mandatory": "true",
+      "checkForSequenceWhileRegistration": "",
+      "registration_allowed" : "true"
+    },
+    "DIGILOCKER": {
+      "d_client_id": "",
+      "d_client_secret": "",
+      "redirect_uri": ""
+    },
+    "ESIGN": {
+      "request_url": "",
+      "redirection_url": "",
+      "esign_aspId" : "",
+      "pfx_name" : "",
+      "pfx_password" : "",
+      "appl_id": ""
+    },
+    "SMS": {
+      "serviceProvider": "",
+      "url": "",
+      "smsId": "",
+      "authPassword": "",
+      "signatureId": "",
+      "secureKey": "",
+      "notifyUrl": "",
+      "dltEntityId": "",
+      "dltTemplateId": ""
+    },
+    "SPFMS": {
+      "external_app_id": "",
+      "user_id": "",
+      "user_pwd": "",
+      "external_app_reg_url": "",
+      "external_app_upd_url": "",
+      "token_url": "",
+      "ben_reg_url": "",
+      "ben_sts_ack_url": "",
+      "ben_pay_url": "",
+      "ben_pay_sts_ack_url": "",
+      "dsc_enr_url": "",
+      "check_req_sts": "",
+      "get_unique_id_url": "",
+      "dbt_debug_util_token_url": "",
+      "dbt_debug_util_url": "",
+      "dbt_util_process_request_url": "",
+      "beneficiary_DestVal": "",
+      "token_beneficiary_request_batch": "",
+      "payment_DestVal": "",
+      "token_payment_request_batch": "",
+      "dsc_PRcId": "",
+      "scheme_code": "",
+      "scheme_nm": "",
+      "agency_id": "",
+      "agency_nm": "",
+      "_ben_type": "",
+      "ben_desc": ""
+    },
+    "JANPARICHAY": {
+      "client_serviceId": "",
+      "client_rest_auth_id": "",
+      "client_id": "",
+      "client_secret": "",
+      "client_auth_key" : ""
+    },
+    "CSC": {
+      "client_id": "",
+      "client_secret": "",
+      "client_token": ""
+    },
+    "MAIL": {
+      "smtp_host": "",
+      "smtp_ssl_protocols": "",
+      "smtp_auth_user": "",
+      "smtp_auth_password": "",
+      "smtp_port": "",
+      "smtp_sender_api" : "",
+      "smtp_mail_from" : ""
+    },
+    "SANDES": {
+      "GIMSClientSecret": "",
+      "GIMSClientId": "",
+      "GIMSHMACKey": ""
+    },
+	"FILETYPE": {
+				"allowed":
+						[
+						"PDF",
+						"XLSX",
+						"DOCX"
+					   ]
+    },
+	"EXTERNALCONFIG":{
+		"externalapp_token_timeoutInMin": "",
+		"externalApp_maintain_appl_log": "false",
+		"externalApp_captcha_validation": "false",
+        "externalSubmission_encryptionAlgo" : "MD5"
+	},
+    "ADDITIONALCONFIG" : {
+      "imageQualityClientId" : "",
+      "imageQualityClientSecret" : "",
+      "imageQualityURL" : "",
+      "kafka_dashboard_topic" : "",
+      "dashboard_app_domain" : "",
+      "dashboard_auth_token" : "",
+      "enableWebServiceCall" : "false",
+      "webServiceCallByUrl" : "",
+      "advApplicationUrl" : "",
+      "dateFormat" : "",
+      "domain" : "",
+      "autoSave" : ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "code": "CREATE_SKEY",
+    "name": "Create Session Key",
+    "description": "Creates the encrypted Aadhaar session key",
+    "beanName": "aadhaarCryptoService",
+    "methodName": "createSkey"
+  },
+  {
+    "code": "CREATE_DATA",
+    "name": "Create Encrypted Data",
+    "description": "Creates encrypted Aadhaar PID data",
+    "beanName": "aadhaarCryptoService",
+    "methodName": "createData"
+  },
+  {
+    "code": "CREATE_HMAC",
+    "name": "Create HMAC",
+    "description": "Creates encrypted HMAC for Aadhaar PID data",
+    "beanName": "aadhaarCryptoService",
+    "methodName": "createHmac"
+  }
+]

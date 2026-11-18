@@ -1,0 +1,23 @@
+type Query { 
+	getConfig(tenantId: Int, serviceId: Int): Config 
+	getConfigValues(tenantId: Int, serviceId: Int, keys: [String]): ConfigValue
+}
+
+type Config { 
+
+	configId: Int
+	tenantId: Int
+	serviceId: Int
+	configData: String
+
+}
+
+type Mutation {
+	saveConfig(tenantId: Int, serviceId: Int, configData: String): Config 
+	updateConfigValue(tenantId: Int, serviceId: Int, key: String, value: String): Config 
+}
+
+type ConfigValue { 
+	key: String 
+	value: String 
+}
